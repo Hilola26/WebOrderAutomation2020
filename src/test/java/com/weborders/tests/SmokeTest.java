@@ -22,7 +22,7 @@ loginPage.login();
 
 
 }
-@DataProvider
+@DataProvider(parallel = true)
 public Object [][]smokeTestData() {
     return new Object[][]{
             {"View all orders", "List of All Orders"},
